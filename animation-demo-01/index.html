@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <title>Vite App</title>
+</head>
+
+<body>
+  <div id="app">
+    <div class="h-screen flex flex-col justify-center items-center gap-4">
+      <h1 class="text-4xl font-bold">Hover the button bellow</h1>
+      <div class="from-pink-500 to-violet-500 bg-gradient-to-tr p-1 rounded">
+        <button class="px-3 py-2 rounded bg-zinc-800 relative z-[1]
+          before:absolute before:top-0 before:bottom-0 before:start-0 before:contet-['']
+          before:from-pink-500 before:to-violet-500 before:bg-gradient-to-tr
+          before:w-0 hover:before:w-full
+          before:-z-[1]
+          before:transition-all before:duration-700 before:ease-in-out
+          group">
+          <span class="font-bold text-3xl
+          group-hover:text-transparent group-hover:bg-clip-text 
+          group-hover:from-white group-hover:to-yellow-500
+          group-hover:bg-gradient-to-tr
+          transition-all duration-700 ease-in-out">Hover Me</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
